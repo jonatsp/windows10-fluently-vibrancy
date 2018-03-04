@@ -1,4 +1,4 @@
-#electron-fluently-vibrancy
+# electron-fluently-vibrancy
 
 This module is intended to give an [Electron](https://github.com/electron/electron) BrowserWindow blur on its behind on Windows. Electron does not support 'blur behind' from a transparent window on Windows and this module uses native API calls to achieve the effect.
 
