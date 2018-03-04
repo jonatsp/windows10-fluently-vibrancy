@@ -1,6 +1,6 @@
 //----------------------------------------------------------------------------
 // electron-vibrancy
-// Copyright 2016 arkenthera
+// Copyright 2018 Sebastián Contreras, 2016 arkenthera
 //
 // MIT License
 // Permission is hereby granted, free of charge, to any person obtaining a copy
