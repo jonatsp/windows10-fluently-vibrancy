@@ -12,7 +12,9 @@
     "bindings": "^1.3.0",
     "nan": "^2.9.2"
   },
-  "os": ["win32"],
+  "os": [
+    "win32"
+  ],
   "scripts": {
     "run-test-app": "./node_modules/.bin/electron ./spec/app",
     "lint-cpp": "python scripts/lint.py",
@@ -33,8 +35,8 @@
     "transparent",
     "transparency"
   ],
-  "authors": [
-    "Sebastián Contreras <seba.contreras@outlook.com> (https://seba.im/)"
+  "contributors": [
+    "Sebastián Contreras <seba.contreras@outlook.com> (https://seba.im/)",
     "arkenthera"
   ],
   "license": "MIT",
