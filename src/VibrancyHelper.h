@@ -34,6 +34,7 @@ namespace Vibrancy {
      public:
         VibrancyHelper();
         ~VibrancyHelper() { }
+		bool EnableVibrancy(unsigned char* buffer);
         bool DisableVibrancy(unsigned char* buffer);
     };
 }  // namespace Vibrancy
