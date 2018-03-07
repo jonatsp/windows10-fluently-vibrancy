@@ -1,4 +1,4 @@
-# electron-fluently-vibrancy
+# windows10-fluently-vibrancy
 
 This module is intended to give an [Electron](https://github.com/electron/electron) BrowserWindow blur on its behind on Windows. Electron does not support 'blur behind' from a transparent window on Windows and this module uses native API calls to achieve the effect.
 
@@ -9,8 +9,8 @@ This module is intended to give an [Electron](https://github.com/electron/electr
 Since this is a native addon, you will need your platforms build tools. Visual Studio, etc. Also Python for `node-gyp`.
 
 ```
-git clone https://github.com/sebascontre/electron-fluently-vibrancy
-cd electron-fluently-vibrancy
+git clone https://github.com/sebascontre/windows10-fluently-vibrancy
+cd windows10-fluently-vibrancy
 npm install
 cd spec/app # Go to sample app
 electron . # electron --version should be 1.6.8
@@ -26,10 +26,10 @@ npm run rebuild
 Also available through NPM.
 
 ```
-npm install electron-fluently-vibrancy
+npm install windows10-fluently-vibrancy
 ```
 
-To run tests see [scripts/ci](https://github.com/sebascontre/electron-fluently-vibrancy/blob/master/scripts/ci.sh)
+To run tests see [scripts/ci](https://github.com/sebascontre/windows10-fluently-vibrancy/blob/master/scripts/ci.sh)
 
 # Current Supported Platforms
 - Windows 10 (stable) It just works ™
@@ -82,4 +82,4 @@ On **Windows 10** the addon uses ```SetWindowCompositionAttribute```, which is a
 ## License
 
 This project is under MIT.
-See [LICENSE](https://github.com/sebascontre/electron-fluently-vibrancy/blob/master/LICENSE)
+See [LICENSE](https://github.com/sebascontre/windows10-fluently-vibrancy/blob/master/LICENSE)
